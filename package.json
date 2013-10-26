@@ -1,0 +1,21 @@
+{
+  "name": "Dancing Bender",
+  "description": "basic server to serve up a dancing bender on the fly",
+  "version": "0.0.1",
+  "main": "server.js",
+  "author": "Dustin Brown",
+  "homepage": "https://github.com/willCode2Surf/bender",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willCode2Surf/bender.git"
+  },
+  "scripts": {
+    "start": "node app",
+    "install": "node app"
+  },
+  "license": "MIT",
+  "engines": { "node": "latest" },
+  "dependencies": {
+    "express": "latest"
+  }
+}
