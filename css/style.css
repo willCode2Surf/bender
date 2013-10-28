@@ -29,6 +29,8 @@ div {
 	-moz-perspective:700px;
 	background-image: -moz-linear-gradient(left , rgb(84,116,137) 0%, rgb(133,160,177) 50%, rgb(84,116,137) 100%);
 }
+
+
 #container {
 	height:300px;
 	width:300px;
@@ -36,6 +38,13 @@ div {
 	margin-top:-150px;
 	margin-left:-150px;
 	-webkit-box-reflect: below  -7px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(10%, transparent), to(rgba(255,255,255,0.2)));
+}
+
+.wrapper {
+    display:block;
+    position:absolute;
+    top:300px;
+    left:500px;
 }
 #foot {
 	bottom:0;
